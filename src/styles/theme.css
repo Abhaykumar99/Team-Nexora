@@ -1,0 +1,95 @@
+/* ─── Nexora Design Themes ─── */
+
+/* 1. Midnight Studio (Default Dark) — also scoped so theme-menu swatches
+   can render this palette locally via data-theme on the button */
+:root,
+[data-theme='midnight-studio'] {
+  --bg: #0A0A0A;
+  --fg: #F3EDE2;
+  --primary: #C8FF2E;
+  --primary-fg: #0A0A0A;
+  --secondary: #FF5B3A;
+  --accent: #6E4BFF;
+  --surface: #13131A;
+  --surface-2: #1E1E28;
+  --border: #2A2A33;
+  --fg-muted: #9999A1;
+  --success: #3DDC97;
+  --error: #FF5C7A;
+
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 16px;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+  color-scheme: dark;
+}
+
+/* 2. Daylight Studio (Warm Cream / Editorial Light) */
+[data-theme='daylight-studio'] {
+  --bg: #F3EDE2;
+  --fg: #0A0A0A;
+  --primary: #FF5B3A;
+  --primary-fg: #FFFFFF;
+  --secondary: #6E4BFF;
+  --accent: #C8FF2E;
+  --surface: #EBE4D8;
+  --surface-2: #DFD7C9;
+  --border: #D0CABF;
+  --fg-muted: #66666E;
+  --success: #1E9E63;
+  --error: #C81E45;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.1);
+
+  color-scheme: light;
+}
+
+/* 3. Retro Sunset (Deep Violet / Neon Punch) */
+[data-theme='retro-sunset'] {
+  --bg: #1A0F2E;
+  --fg: #F3EDE2;
+  --primary: #FF6B9D;
+  --primary-fg: #1A0F2E;
+  --secondary: #FFD23F;
+  --accent: #7B61FF;
+  --surface: #231540;
+  --surface-2: #2E1D54;
+  --border: #2D1F47;
+  --fg-muted: #A390C8;
+  --success: #3DDC97;
+  --error: #FF5C7A;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.6);
+
+  color-scheme: dark;
+}
+
+/* 4. Forest Tech (Deep Emerald / Mint) */
+[data-theme='forest-tech'] {
+  --bg: #0E1A14;
+  --fg: #F5F5DC;
+  --primary: #D9F99D;
+  --primary-fg: #0E1A14;
+  --secondary: #34D399;
+  --accent: #A78BFA;
+  --surface: #152A1E;
+  --surface-2: #1C3828;
+  --border: #1C2E24;
+  --fg-muted: #8BAA96;
+  --success: #3DDC97;
+  --error: #FF5C7A;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.6);
+
+  color-scheme: dark;
+}

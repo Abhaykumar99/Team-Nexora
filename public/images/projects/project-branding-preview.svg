@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brand-prev-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1420" />
+      <stop offset="100%" stop-color="#07090F" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#brand-prev-bg)" />
+
+  <text x="60" y="60" fill="#E8EEF9" font-family="sans-serif" font-size="22" font-weight="bold">Brand Guidelines &amp; Identity Applications</text>
+  <text x="60" y="85" fill="#8B95AB" font-family="sans-serif" font-size="14">Logo construction, clear space, responsive lockups, and merchandise</text>
+
+  <!-- Card 1: Logo Grid Construction -->
+  <rect x="60" y="120" width="410" height="200" rx="12" fill="#151B2B" stroke="#232B3D" />
+  <text x="85" y="155" fill="#E8EEF9" font-family="sans-serif" font-size="16" font-weight="600">Grid Construction &amp; Safe Zone</text>
+  <g transform="translate(185, 175)">
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#38E8C6" stroke-dasharray="3" opacity="0.6" />
+    <rect x="25" y="25" width="70" height="70" fill="none" stroke="#8B7BFF" stroke-dasharray="3" opacity="0.6" />
+    <path d="M40 75 V45 h7 l15 20 V45 h7 v30 h-7 L47 55 v20 Z" fill="#38E8C6" />
+  </g>
+
+  <!-- Card 2: Stationery / Business Card Mockup -->
+  <rect x="500" y="120" width="440" height="200" rx="12" fill="#151B2B" stroke="#232B3D" />
+  <text x="525" y="155" fill="#E8EEF9" font-family="sans-serif" font-size="16" font-weight="600">Physical Collateral Mockup</text>
+  <g transform="translate(560, 180)">
+    <rect width="180" height="110" rx="8" fill="#07090F" stroke="#232B3D" />
+    <text x="20" y="45" fill="#E8EEF9" font-family="sans-serif" font-size="12" font-weight="bold">Team Nexora</text>
+    <text x="20" y="62" fill="#38E8C6" font-family="sans-serif" font-size="9">Digital Studio</text>
+    <text x="20" y="90" fill="#8B95AB" font-family="sans-serif" font-size="8">hello@teamnexora.dev</text>
+  </g>
+  <g transform="translate(680, 200)">
+    <rect width="180" height="110" rx="8" fill="#0F1420" stroke="#38E8C6" stroke-width="1.5" />
+    <path d="M75 75 V45 h7 l15 20 V45 h7 v30 h-7 L82 55 v20 Z" fill="#38E8C6" />
+  </g>
+
+  <!-- Card 3: Color Tokens & Accessibility -->
+  <rect x="60" y="350" width="880" height="200" rx="12" fill="#151B2B" stroke="#232B3D" />
+  <text x="85" y="390" fill="#E8EEF9" font-family="sans-serif" font-size="16" font-weight="600">Visual System Rules</text>
+  <text x="85" y="430" fill="#8B95AB" font-family="sans-serif" font-size="14">1. Primary Mint (#38E8C6) reserved for focal points, interactive elements, and key actions.</text>
+  <text x="85" y="465" fill="#8B95AB" font-family="sans-serif" font-size="14">2. Secondary Amber (#FFB547) used exclusively for badges, highlights, and secondary states.</text>
+  <text x="85" y="500" fill="#8B95AB" font-family="sans-serif" font-size="14">3. Accent Violet (#8B7BFF) applied with restraint for atmospheric glows and borders.</text>
+</svg>

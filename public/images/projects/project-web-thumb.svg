@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="web-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1420" />
+      <stop offset="100%" stop-color="#07090F" />
+    </linearGradient>
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38E8C6" />
+      <stop offset="100%" stop-color="#8B7BFF" />
+    </linearGradient>
+    <linearGradient id="chart-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38E8C6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38E8C6" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#web-bg)" />
+
+  <!-- Window Frame -->
+  <rect x="40" y="30" width="720" height="390" rx="12" fill="#151B2B" stroke="#232B3D" stroke-width="1.5" />
+  
+  <!-- Window Header -->
+  <rect x="40" y="30" width="720" height="40" rx="12" fill="#0F1420" />
+  <circle cx="65" cy="50" r="5" fill="#FF5C7A" opacity="0.8" />
+  <circle cx="82" cy="50" r="5" fill="#FFB547" opacity="0.8" />
+  <circle cx="99" cy="50" r="5" fill="#3DDC97" opacity="0.8" />
+
+  <!-- URL Bar -->
+  <rect x="130" y="40" width="300" height="20" rx="6" fill="#151B2B" stroke="#232B3D" />
+  <text x="145" y="54" fill="#8B95AB" font-family="sans-serif" font-size="10">nexora-analytics.app/dashboard</text>
+
+  <!-- Sidebar -->
+  <rect x="40" y="70" width="160" height="350" fill="#0F1420" stroke="#232B3D" stroke-width="1" />
+  <rect x="60" y="95" width="120" height="12" rx="4" fill="#232B3D" />
+  <rect x="60" y="125" width="100" height="10" rx="3" fill="#38E8C6" opacity="0.7" />
+  <rect x="60" y="150" width="90" height="10" rx="3" fill="#232B3D" />
+  <rect x="60" y="175" width="110" height="10" rx="3" fill="#232B3D" />
+  <rect x="60" y="200" width="80" height="10" rx="3" fill="#232B3D" />
+
+  <!-- Main Content Cards -->
+  <!-- Stat Card 1 -->
+  <rect x="220" y="90" width="160" height="75" rx="8" fill="#0F1420" stroke="#232B3D" />
+  <text x="235" y="112" fill="#8B95AB" font-family="sans-serif" font-size="10">Total Revenue</text>
+  <text x="235" y="138" fill="#E8EEF9" font-family="sans-serif" font-size="18" font-weight="bold">$48,290</text>
+  <rect x="330" y="125" width="35" height="16" rx="4" fill="#3DDC97" fill-opacity="0.15" />
+  <text x="336" y="137" fill="#3DDC97" font-family="sans-serif" font-size="9">+14%</text>
+
+  <!-- Stat Card 2 -->
+  <rect x="395" y="90" width="160" height="75" rx="8" fill="#0F1420" stroke="#232B3D" />
+  <text x="410" y="112" fill="#8B95AB" font-family="sans-serif" font-size="10">Active Users</text>
+  <text x="410" y="138" fill="#E8EEF9" font-family="sans-serif" font-size="18" font-weight="bold">12,450</text>
+  <rect x="505" y="125" width="35" height="16" rx="4" fill="#38E8C6" fill-opacity="0.15" />
+  <text x="511" y="137" fill="#38E8C6" font-family="sans-serif" font-size="9">+8.2%</text>
+
+  <!-- Stat Card 3 -->
+  <rect x="570" y="90" width="165" height="75" rx="8" fill="#0F1420" stroke="#232B3D" />
+  <text x="585" y="112" fill="#8B95AB" font-family="sans-serif" font-size="10">Conversion Rate</text>
+  <text x="585" y="138" fill="#E8EEF9" font-family="sans-serif" font-size="18" font-weight="bold">4.82%</text>
+  <rect x="680" y="125" width="40" height="16" rx="4" fill="#FFB547" fill-opacity="0.15" />
+  <text x="686" y="137" fill="#FFB547" font-family="sans-serif" font-size="9">+2.1%</text>
+
+  <!-- Chart Card -->
+  <rect x="220" y="180" width="515" height="220" rx="8" fill="#0F1420" stroke="#232B3D" />
+  <text x="240" y="210" fill="#E8EEF9" font-family="sans-serif" font-size="13" font-weight="600">Performance Over Time</text>
+  
+  <!-- Chart Grid Lines -->
+  <line x1="240" y1="240" x2="710" y2="240" stroke="#232B3D" stroke-dasharray="4" />
+  <line x1="240" y1="280" x2="710" y2="280" stroke="#232B3D" stroke-dasharray="4" />
+  <line x1="240" y1="320" x2="710" y2="320" stroke="#232B3D" stroke-dasharray="4" />
+  <line x1="240" y1="360" x2="710" y2="360" stroke="#232B3D" />
+
+  <!-- Wave area -->
+  <path d="M 240 340 Q 300 290 360 310 T 480 250 T 600 270 T 710 220 L 710 360 L 240 360 Z" fill="url(#chart-grad)" />
+  <!-- Wave line -->
+  <path d="M 240 340 Q 300 290 360 310 T 480 250 T 600 270 T 710 220" fill="none" stroke="#38E8C6" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Active point -->
+  <circle cx="480" cy="250" r="5" fill="#38E8C6" />
+  <circle cx="480" cy="250" r="10" fill="#38E8C6" opacity="0.3" />
+</svg>
